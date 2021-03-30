@@ -111,9 +111,9 @@ namespace TravisCILab
         [Test]
         public void Power_Valid_Titsworth()
         {
-            Assert.AreEqual(2, Program.Power("1", "1")); // purposely incorrect
+            Assert.AreEqual(2, Program.Power("2", "1"));
             Assert.AreEqual(9, Program.Power("3", "2"));
-            Assert.AreEqual(8, Program.Divide("2", "3"));
+            Assert.AreEqual(1, Program.Divide("1", "1"));
         }
 
         [Test]
